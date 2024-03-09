@@ -1,3 +1,6 @@
+/* .Front_page__img_container {
+    width: 100%;
+} */
 .Front_Page__img {
     display: inline-block;
     background-image: url("./media/main.png");
@@ -32,3 +35,13 @@
     width: 200px;
     background-color: white;
 }
+
+@media (width < 1000px) {
+    .Front_Page__img {
+        display: inline-block;
+        background-image: url("./media/main.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+  }
