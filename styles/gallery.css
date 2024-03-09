@@ -19,12 +19,12 @@
     color: rgba(239, 252, 244, 100);
 }
 
-.gallery__h2::before {
+.gallery__h2::after {
     content: "";
     width: 7px;
     height: 60px;
     background-color: rgba(239, 252, 244, 100);
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .gallery__p {
