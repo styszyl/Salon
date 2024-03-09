@@ -1,6 +1,7 @@
 @import url(styles/front_page.css);
 @import url(styles/navbar.css);
-@import url(styles/o_nas.css);
+@import url(styles/about.css);
+@import url(styles/gallery.css);
 
 * {
     box-sizing: border-box;
