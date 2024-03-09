@@ -1,0 +1,44 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 77%);
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar__ul {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.navbar__logo {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 6px;
+    font-size: 30px;
+}
+
+.navbar__li {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-style: normal;
+    list-style: none;
+    padding-left: 50px;
+}
+
+.navbar__a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__socials {
+    max-width: 100px;
+}

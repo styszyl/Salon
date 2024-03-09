@@ -1,0 +1,34 @@
+.Front_Page__img {
+    display: inline-block;
+    background-image: url("./media/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    width:100%;
+}
+
+.Front_Page__window {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inknut Antiqua", serif;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin: 160px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Front_Page__paragraph {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 6px;
+}
+
+.Front_Page__button {
+    margin: 10px 0;
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+}

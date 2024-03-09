@@ -1,0 +1,22 @@
+@import url(styles/front_page.css);
+@import url(styles/navbar.css);
+@import url(styles/o_nas.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  html {
+    background: linear-gradient(180deg, rgba(44,110,59,1) 0%, rgba(0,0,0,1) 100%);
+    min-height: 100%;
+  }
+  .container {
+    box-shadow: 0px 0px 50px 1px rgb(0, 0, 0);
+    margin: 50px 38vh auto;
+    min-height: 80vh; /* do usunięcia po dodaniu kontentu*/
+    min-width: 550px;
+    
+  }
