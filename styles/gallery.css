@@ -1,7 +1,7 @@
 .gallery {
     background-color: rgba(25, 30, 30, 100%);
     width: auto;
-    min-height: 500px;
+    min-height: 700px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);

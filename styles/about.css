@@ -1,7 +1,7 @@
 .about {
     background-color: rgba(239, 252, 244, 100%);
     width: auto;
-    min-height: 500px;
+    min-height: 600px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(2, 1fr);
